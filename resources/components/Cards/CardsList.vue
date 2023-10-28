@@ -29,7 +29,7 @@ export default {
     methods: {
         async fetchCards() {
             const cards = axios
-                .get("https://api.magicthegathering.io/v1/cards")
+                .get("https://api.magicthegathering.io/v1/cards?page=3")
                 .then((response) => (this.cards = response.data.cards));
             this.cards = cards.data;
         },
