@@ -109,9 +109,10 @@ export default {
 @import "../../sass/_variables.scss";
 
 footer {
-    background: rgba($primary, 0.6) url('https://images.ctfassets.net/s5n2t79q9icq/3lPVk4jFTftKedq8YuQ4tk/cb9fb0c076ceed8da6963ffdde98562f/vd8wdeKjl3mf-1600x1080.jpg?q=70&w=1920&fm=avif');
+    background: rgba($primary, 0.6)
+        url("https://images.ctfassets.net/s5n2t79q9icq/3lPVk4jFTftKedq8YuQ4tk/cb9fb0c076ceed8da6963ffdde98562f/vd8wdeKjl3mf-1600x1080.jpg?q=70&w=1920&fm=avif");
     background-position-y: top;
-    .footer_container{
+    .footer_container {
         background: rgba($primary, 0.6);
     }
     .footer_logo_wrapper {
@@ -137,6 +138,10 @@ footer {
                 &:focus {
                     background: $secondary;
                     transition: all 0.3s ease-in-out;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    -moz-transition: all 0.3s ease-in-out;
+                    -ms-transition: all 0.3s ease-in-out;
+                    -o-transition: all 0.3s ease-in-out;
                     svg {
                         fill: $primary;
                     }
