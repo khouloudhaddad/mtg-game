@@ -1,7 +1,13 @@
 // Body
 $body-bg: #f8fafc;
+$primary: #091423;
+$hover-color: #b93b0d;
+$secondary: #b93b0d;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
+$font-family-sans-serif: 'Dancing Script', cursive;
+$font-size-base: 1.125rem;
 $line-height-base: 1.6;
+
+

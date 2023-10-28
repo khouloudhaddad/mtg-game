@@ -1,8 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container-fluid px-0">
         <Menu />
         <div class="row">
-            <div class="card">
+            <div class="col-12">
                 Content
             </div>
         </div>
