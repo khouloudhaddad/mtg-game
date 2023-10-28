@@ -12,7 +12,7 @@ html, body{
     overflow-x: hidden;
 }
 body{
-    background: url('https://images.ctfassets.net/s5n2t79q9icq/19hIe9tIbNPrg0434R8rQn/048c79a672e1aa204024be9935debda1/Lvbwj3in898_1920x1040.png?fl=progressive') center no-repeat;
+    background: url('../../public/assets/imgs/main_bg.png') center no-repeat;
     background-size: cover;
     font-weight: 400;
     color: #fff;
@@ -31,4 +31,10 @@ a{
 }
 h3{
     font-weight: 600;
+}
+.no_bg{
+    background: transparent;
+}
+.unbordered{
+    border: none !important;
 }

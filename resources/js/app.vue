@@ -1,10 +1,8 @@
 <template>
     <div class="container-fluid px-0">
         <Menu />
-        <div class="row">
-            <div class="col-12">
-                Content
-            </div>
+        <div class="section" id="cards">
+            <Cards />
         </div>
         <Footer />
     </div>
@@ -13,11 +11,13 @@
 <script>
 import Footer from '../components/partials/Footer.vue';
 import Menu from '../components/partials/Menu.vue';
+import Cards from '../components/Cards/CardsList.vue';
 export default {
     name: 'App',
     components: {
         Menu,
-        Footer
+        Footer,
+        Cards
     }
 }
 </script>
